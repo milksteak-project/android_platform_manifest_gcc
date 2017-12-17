@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch="https://android-review.googlesource.com/" />
+           fetch="https://android.googlesource.com/" />
   <default revision="ndk-r15-release"
            remote="aosp"
            sync-j="4" />
