@@ -19,7 +19,6 @@
   <project path="toolchain/build" name="toolchain/build" />
   <project path="toolchain/cloog" name="toolchain/cloog" />
   <project path="toolchain/expat" name="toolchain/expat" />
-  <project path="toolchain/gcc" name="toolchain/gcc" />
   <project path="toolchain/gmp" name="toolchain/gmp" />
   <project path="toolchain/isl" name="toolchain/isl" />
   <project path="toolchain/mpc" name="toolchain/mpc" />
@@ -27,7 +26,7 @@
   <project path="toolchain/ppl" name="toolchain/ppl" />
   <project path="toolchain/sed" name="toolchain/sed" />
 
-  <remove-project path="toolchain/gcc/gcc-4.9" name="toolchain/gcc" />
-  <project path="toolchain/gcc/gcc-4.9" name="milksteak-project/android_toolchain_gcc" remote="github" revision="milksteak-4.9-dev001" />
+  <project path="toolchain/gcc" name="milksteak-project/android_toolchain_gcc" remote="github" revision="milksteak-0.01a1-ndk" />
+  <project path="toolchain/gcc/gcc-4.9" name="milksteak-project/android_toolchain_gcc_gcc-4.9.4" remote="github" revision="milksteak-4.9-dev001" />
 
 </manifest>
