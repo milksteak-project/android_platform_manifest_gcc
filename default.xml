@@ -26,6 +26,7 @@
   <project path="toolchain/ppl" name="toolchain/ppl" />
   <project path="toolchain/sed" name="toolchain/sed" />
 
+  <project path="toolchain/binutils/binutils-2.27" name="milksteak-project/android_toolchain_binutils_binutils-2.27" remote="github" revision="milksteak-0.01a1-ndk" />
   <project path="toolchain/gcc" name="milksteak-project/android_toolchain_gcc" remote="github" revision="milksteak-0.01a1-ndk" />
   <project path="toolchain/gcc/gcc-4.9" name="milksteak-project/android_toolchain_gcc_gcc-4.9" remote="github" revision="milksteak-4.9-dev005" />
 
